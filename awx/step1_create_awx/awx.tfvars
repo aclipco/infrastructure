@@ -1,9 +1,9 @@
 instance_type		=	"t2.medium"
-key_name		=	"app-rsa"
+key_name		=	"towerkey"
 ami			=	"ami-0ff760d16d9497662"    #Use Centos7  image
-vpc_id			=	"vpc-908caaf6"
+vpc_id			=	"vpc-320e1154"
 user			=	"centos"
 ssh_key_location	=	"/ssh_keys/app_rsa"       #Import pub key pair to aws as "terraform"
-zone_id			=	"Z32OHGRMBVZ9LR"	   #Add hosted DNS zone ID here
-domain			=	"acirrustech.com"
+zone_id			=	"Z4L78S7WOU6VT"	   #Add hosted DNS zone ID here
+domain			=	"anastasiaclipcodevops.com"
 region = "eu-west-1"
